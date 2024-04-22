@@ -1,0 +1,63 @@
+Newspaper//##//3//##//Title of newspaper//##//2010//##//600//##//DR
+Book//##//4//##//The Whispering Shadows//##//2005//##//75000//##//Emily Dickinson//##//9786872
+Book//##//5//##//Echoes of Eternity//##//2012//##//62000//##//John Smith//##//97866684
+Book//##//6//##//Lost in Time//##//2008//##//58000//##//Alice Walker//##//97826716
+Book//##//7//##//Midnight Serenade//##//2015//##//49000//##//Harper Lee//##//97809850
+Book//##//8//##//The Enigma Code//##//2019//##//69000//##//J.K. Rowling//##//9785652
+Book//##//9//##//Whispers in the Dark//##//2002//##//54000//##//Ernest Hemingway//##//97873565
+Book//##//10//##//Shadows of Destiny//##//2011//##//67000//##//Agatha Christie//##//97873488
+Book//##//11//##//Echoes of Tomorrow//##//2014//##//52000//##//Stephen King//##//97821740
+Book//##//12//##//The Forgotten Realm//##//2007//##//60000//##//Maya Angelou//##//97894403
+Book//##//13//##//Echoes of Silence//##//2003//##//58000//##//George Orwell//##//978524935
+Book//##//14//##//Whispers of the Past//##//2017//##//72000//##//Toni Morrison//##//97833423
+Book//##//15//##//Shadowed Dreams//##//2006//##//64000//##//Mark Twain//##//97832726
+Book//##//16//##//Secrets Unveiled//##//2010//##//57000//##//Virginia Woolf//##//97827328
+Book//##//18//##//The Hidden Path//##//2016//##//61000//##//Charles Dickens//##//97839645
+Book//##//19//##//Whispers from the Past//##//2004//##//56000//##//Jane Austen//##//978439645
+Book//##//20//##//The Silent Echo//##//2013//##//59000//##//Leo Tolstoy//##//97806419
+Book//##//21//##//Echoes of Destiny//##//2018//##//70000//##//Oscar Wilde//##//97837238
+Book//##//22//##//The Forgotten Voices//##//2001//##//53000//##//Edgar Allan Poe//##//97867148
+Book//##//23//##//Shadowed Memories//##//2020//##//68000//##//H.G. Wells//##//97837082
+Magazine//##//24//##//Tech Chronicles//##//2005//##//75//##//42
+Magazine//##//25//##//Fashion Trends//##//2012//##//62//##//42
+Magazine//##//26//##//Travel Adventures//##//2008//##//58//##//42
+Magazine//##//27//##//Science Insights//##//2015//##//49//##//42
+Magazine//##//28//##//Culinary Delights//##//2019//##//69//##//42
+Magazine//##//29//##//Health Matters//##//2002//##//54//##//42
+Magazine//##//30//##//Sports Spectator//##//2011//##//67//##//42
+Magazine//##//31//##//Financial Focus//##//2014//##//52//##//42
+Magazine//##//32//##//Home & Garden Gazette//##//2007//##//60//##//42
+Magazine//##//33//##//Artistic Expression//##//2003//##//58//##//42
+Magazine//##//34//##//Music Mania//##//2017//##//72//##//42
+Magazine//##//35//##//Automotive World//##//2006//##//64//##//42
+Magazine//##//36//##//Nature's Wonders//##//2010//##//57//##//42
+Magazine//##//37//##//Film Fanatic//##//2009//##//55//##//42
+Magazine//##//38//##//Literary Review//##//2016//##//61//##//42
+Magazine//##//39//##//Gadget Guide//##//2004//##//56//##//42
+Magazine//##//40//##//Business Brief//##//2013//##//59//##//42
+Magazine//##//41//##//Entertainment Weekly//##//2018//##//70//##//42
+Magazine//##//42//##//Fashion Forward//##//2001//##//53//##//42
+Magazine//##//43//##//Home Cooking//##//2020//##//68//##//42
+Newspaper//##//44//##//The Daily Gazette//##//2005//##//750//##//The Gazette Company
+Newspaper//##//45//##//The Morning Herald//##//2012//##//620//##//Herald Publications
+Newspaper//##//46//##//Evening Tribune//##//2008//##//580//##//Tribune Media
+Newspaper//##//47//##//The Sun Times//##//2015//##//490//##//Sun Times Media Group
+Newspaper//##//48//##//The Metro News//##//2019//##//690//##//Metro Media
+Newspaper//##//49//##//The City Post//##//2002//##//540//##//City Post Publishing
+Newspaper//##//50//##//The Evening Star//##//2011//##//670//##//Evening Star Press
+Newspaper//##//51//##//The Financial Times//##//2014//##//520//##//Financial Times Group
+Newspaper//##//52//##//The Daily Press//##//2007//##//600//##//Daily Press Incorporated
+Newspaper//##//53//##//The National Tribune//##//2003//##//580//##//National Tribune Media
+Newspaper//##//54//##//The Sunday Times//##//2017//##//720//##//Sunday Times Group
+Newspaper//##//55//##//The Evening Echo//##//2006//##//640//##//Evening Echo Publications
+Newspaper//##//56//##//The Daily News//##//2010//##//570//##//Daily News Corporation
+Newspaper//##//57//##//The Morning Post//##//2009//##//550//##//Morning Post Publishing
+Newspaper//##//58//##//The Times Herald//##//2016//##//610//##//Times Herald Media
+Newspaper//##//59//##//The Daily Journal//##//2004//##//560//##//Daily Journal Incorporated
+Newspaper//##//60//##//The Evening Standard//##//2013//##//590//##//Evening Standard Group
+Newspaper//##//61//##//The Morning Express//##//2018//##//700//##//Morning Express Publishing
+Newspaper//##//62//##//The Sunday Tribune//##//2001//##//530//##//Sunday Tribune Media
+Newspaper//##//63//##//The Weekend Post//##//2020//##//680//##//Weekend Post Corporation
+Book//##//64//##//Test of the week//##//2024//##//500//##//Rune Hansen//##//456748912
+Magazine//##//65//##//Test bullshit mag//##//2024//##//90//##//1
+Movie//##//66//##//Five nights at Freddies//##//2022//##//700//##//Some weird guy//##//135
