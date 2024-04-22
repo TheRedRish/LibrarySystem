@@ -6,7 +6,9 @@ public class LibrarySystemApp {
 
         IMediaRepository mediaRepository = new FileMediaRepository(); // Instantiate the appropriate IMediaRepository implementation
         LibrarySystem librarySystem = new LibrarySystem(mediaRepository);
-        ILibrarySystemUI ui = new ConsoleUI(librarySystem); // Instantiate ConsoleUI with IMediaRepository dependency
+        // ILibrarySystemUI ui = new ConsoleUI(librarySystem); // Instantiate ConsoleUI with IMediaRepository dependency
+        JavaFXUI ui = new JavaFXUI(librarySystem);
+
         ui.run();
     }
 }
