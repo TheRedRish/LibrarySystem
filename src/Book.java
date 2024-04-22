@@ -3,13 +3,13 @@ public class Book extends Media {
     private int ISBN;
 
     public Book(String title, int year, int copies, String author, int ISBN) {
-        super(title, year, copies);
+        super(title, year, copies, MediaType.Book);
         this.author = author;
         this.ISBN = ISBN;
     }
 
     public Book(int id, String title, int year, int copies, String author, int ISBN) {
-        super(id, title, year, copies);
+        super(id, title, year, copies, MediaType.Book);
         this.author = author;
         this.ISBN = ISBN;
     }
@@ -36,8 +36,8 @@ public class Book extends Media {
     }
 
     @Override
-    public String getSaveString(String className, String argSeparator) {
-        return super.getSaveString(className, argSeparator) + argSeparator +
+    public String getSaveString(String argSeparator) {
+        return super.getSaveString(argSeparator) + argSeparator +
                 author + argSeparator
                 + ISBN;
     }

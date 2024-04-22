@@ -5,19 +5,25 @@ public abstract class Media {
     private int year;
     private int copies;
     private Integer id;
+    private MediaType mediaType;
 
-    public Media(String title, int year, int copies) {
+
+    public Media(String title, int year, int copies, MediaType mediaType) {
         this.id = null;
         this.title = title;
         this.year = year;
         this.copies = copies;
+        this.mediaType = mediaType;
     }
-    public Media(int id, String title, int year, int copies) {
+
+    public Media(int id, String title, int year, int copies, MediaType mediaType) {
         this.id = id;
         this.title = title;
         this.year = year;
         this.copies = copies;
+        this.mediaType = mediaType;
     }
+
     public String getTitle() {
         return title;
     }
@@ -50,10 +56,18 @@ public abstract class Media {
         this.id = id;
     }
 
+    public MediaType getMediaType() {
+        return mediaType;
+    }
+
+    public void setMediaType(MediaType mediaType) {
+        this.mediaType = mediaType;
+    }
+
     public abstract String getSubscriptionTerms();
 
-    public String getSaveString(String className, String argSeparator) {
-        return className + argSeparator +
+    public String getSaveString(String argSeparator) {
+        return mediaType.toString() + argSeparator +
                 id + argSeparator +
                 title + argSeparator +
                 year + argSeparator +

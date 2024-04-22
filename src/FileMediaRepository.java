@@ -61,13 +61,13 @@ public class FileMediaRepository implements IMediaRepository {
         Media media = null;
 
         // Look at format on each class of getSaveString() to know format of how it is saved.
-        if (Book.class.getName().equals(mediaType)) {
+        if (mediaType.equals(MediaType.Book.toString())) {
             media = new Book(Integer.parseInt(parts[1]), parts[2], Integer.parseInt(parts[3]), Integer.parseInt(parts[4]), parts[5], Integer.parseInt(parts[6]));
-        } else if (Magazine.class.getName().equals(mediaType)) {
+        } else if (mediaType.equals(MediaType.Magazine.toString())) {
             media = new Magazine(Integer.parseInt(parts[1]), parts[2], Integer.parseInt(parts[3]), Integer.parseInt(parts[4]), Integer.parseInt(parts[5]));
-        } else if (Newspaper.class.getName().equals(mediaType)) {
+        } else if (mediaType.equals(MediaType.Newspaper.toString())) {
             media = new Newspaper(Integer.parseInt(parts[1]), parts[2], Integer.parseInt(parts[3]), Integer.parseInt(parts[4]), parts[5]);
-        } else if (Movie.class.getName().equals(mediaType)) {
+        } else if (mediaType.equals(MediaType.Movie.toString())) {
             media = new Movie(Integer.parseInt(parts[1]), parts[2], Integer.parseInt(parts[3]), Integer.parseInt(parts[4]), parts[5], Integer.parseInt(parts[6]));
         }
         return media;
@@ -80,7 +80,7 @@ public class FileMediaRepository implements IMediaRepository {
             if (mediaToSave.getId() == null) {
                 mediaToSave.setId(getHighestId() + 1);
             }
-            writer.write(mediaToSave.getSaveString(mediaToSave.getClass().getName(), argSeparator) + "\n");
+            writer.write(mediaToSave.getSaveString(argSeparator) + "\n");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -100,7 +100,8 @@ public class FileMediaRepository implements IMediaRepository {
                     mediaToSave.setId(highestId + 1);
                     highestId++;
                 }
-                writer.write(mediaToSave.getSaveString(mediaToSave.getClass().getName(), argSeparator) + "\n");
+                writer.write(mediaToSave.getSaveString(argSeparator) + "\n");
+                writer.write(mediaToSave.getSaveString(argSeparator) + "\n");
             }
         } catch (IOException e) {
             e.printStackTrace();

@@ -2,12 +2,12 @@ public class Magazine extends Media {
     private int issueNumber;
 
     public Magazine(String title, int year, int copies, int issueNumber) {
-        super(title, year, copies);
+        super(title, year, copies, MediaType.Magazine);
         this.issueNumber = issueNumber;
     }
 
     public Magazine(int id, String title, int year, int copies, int issueNumber) {
-        super(id, title, year, copies);
+        super(id, title, year, copies, MediaType.Magazine);
         this.issueNumber = issueNumber;
     }
 
@@ -25,8 +25,8 @@ public class Magazine extends Media {
     }
 
     @Override
-    public String getSaveString(String className, String argSeparator) {
-        return super.getSaveString(className, argSeparator) + argSeparator +
+    public String getSaveString(String argSeparator) {
+        return super.getSaveString(argSeparator) + argSeparator +
                 issueNumber;
     }
 

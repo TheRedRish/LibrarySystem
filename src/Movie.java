@@ -3,13 +3,13 @@ public class Movie extends Media {
     private int lengthInMin;
 
     public Movie(String title, int year, int copies, String producer, int lengthInMin) {
-        super(title, year, copies);
+        super(title, year, copies, MediaType.Movie);
         this.lengthInMin = lengthInMin;
         this.producer = producer;
     }
 
     public Movie(int id, String title, int year, int copies, String producer, int lengthInMin) {
-        super(id, title, year, copies);
+        super(id, title, year, copies, MediaType.Movie);
         this.lengthInMin = lengthInMin;
         this.producer = producer;
     }
@@ -36,8 +36,8 @@ public class Movie extends Media {
     }
 
     @Override
-    public String getSaveString(String className, String argSeparator) {
-        return super.getSaveString(className, argSeparator) + argSeparator +
+    public String getSaveString(String argSeparator) {
+        return super.getSaveString(argSeparator) + argSeparator +
                 producer + argSeparator
                 + lengthInMin;
     }
